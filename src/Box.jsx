@@ -3,7 +3,7 @@ import React from 'react'
 export default function Box() {
   return (
     <div>
-        <div className='box flex justify-between py-4 px-4 rounded-xl'>
+        <div className='box sm:flex flex-rows justify-between py-4 px-4 rounded-xl'>
           <div>
             <p>Request Early Access to Get Started</p>
             <p className='font-bold text-xl'>Register Today & start exploring the endless possibilities.</p>

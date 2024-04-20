@@ -5,12 +5,12 @@ export default function Footer() {
         <div className='footer mt-20'>
             <div className='gridd py-10'>
             <div>
-                <p className='content px-20 text-6xl'>Do you want to step in to the future <br/><span className='px-80'>before others</span></p>
+                <p className='content px-20 sm:text-6xl text-3xl'>Do you want to step in to the future <br/><span className='sm:px-80'>before others</span></p>
                 <div className='flex justify-center py-10'>
                     <button className='border-2 py-2 px-6'>Request Early Access</button>
                 </div>
             </div>
-            <div className='flex justify-between'>
+            <div className='sm:flex flex-rows justify-between'>
             <div>
             <p className='text-4xl font-bold'>GPT-3</p>
             <p className='text-xs font-bold'>Crechterwoord K12 182 DK Alknjkcb</p>

@@ -9,9 +9,9 @@ export default function Grid() {
   return (
     <div>
         <div className='py-20'>
-            <p className='content text-5xl'>A lot is happening,<br/> We are blogging about it.</p>
+            <p className='content sm:text-5xl text-3xl'>A lot is happening,<br/> We are blogging about it.</p>
         </div>
-        <div className='grid grid-cols-3 grid-rows-2 gap-8'>
+        <div className='sm:grid sm:grid-cols-3 sm:grid-rows-2 sm:gap-8 flex-rows'>
         <div className='gridd col-span-1 row-span-2 gap-2'>
             <img className='w-full h-[50%] object-cover' src={img1}/>
             <p>Sep 26, 2021</p>

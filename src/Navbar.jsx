@@ -3,8 +3,8 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div className='Navbar'>
-        <div className='flex justify-between px-20'>
-          <div className=' flex font-medium text-lg leading-6 cpaitalize sans-serif'>
+        <div className='md:flex justify-between  sm:px-20 px-0'>
+          <div className='md:flex flex-rows sm:font-medium  sm:text-lg text-sm leading-6 cpaitalize sans-serif'>
               <h1 className='font-bold text-2xl'>GPT-3</h1>
               <a href="">Home</a>
               <a href="">What is GPT3?</a>
