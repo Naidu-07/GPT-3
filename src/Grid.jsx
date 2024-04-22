@@ -11,18 +11,18 @@ export default function Grid() {
         <div className='py-20'>
             <p className='content sm:text-5xl text-3xl'>A lot is happening,<br/> We are blogging about it.</p>
         </div>
-        <div className='sm:grid sm:grid-cols-3 sm:grid-rows-2 sm:gap-8 flex-rows'>
+        <div className='md:grid md:grid-cols-3 md:grid-rows-2 md:gap-8 flex-rows'>
         <div className='gridd col-span-1 row-span-2 gap-2'>
             <img className='w-full h-[50%] object-cover' src={img1}/>
             <p>Sep 26, 2021</p>
             <p className='text-2xl font-bold'>GPT-3 and Open AI is<br/> the future. Let us <br/> exlore how it is?</p>
-            <p className='font-lg text-sm mt-60 '>Read Full Article</p>
+            <p className='font-lg text-md mt-60 '>Read Full Article</p>
         </div>
         <div className='gridd'>
             <img src={img2}/>
             <p>Sep 26, 2021</p>
             <p className='text-2xl font-bold pb-20'>GPT-3 and Open AI is<br/> the future. Let us <br/> exlore how it is?</p>
-            <p className='font-lg text-sm'>Read Full Article</p>
+            <p className='font-lg text-md'>Read Full Article</p>
         </div>
         <div className='gridd'>
             <img src={img3}/>

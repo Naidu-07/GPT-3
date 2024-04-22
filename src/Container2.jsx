@@ -7,7 +7,7 @@ import img4 from '../src/assets/Shop.png'
 export default function Container2() {
   return (
     <div className='py-10'>
-        <div className='sm:flex flex-rows justify-center  h-full w-full object-cover gap-24 '>
+        <div className='md:flex flex-rows justify-center  h-full w-full object-cover gap-24 '>
             <img src={img1}/>
             <img src={img2}/>
             <img src={img3}/>
