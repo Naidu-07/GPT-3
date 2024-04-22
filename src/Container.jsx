@@ -13,12 +13,12 @@ export default function Container() {
             <input type="text" placeholder='Your Email address' className='p-2 lg:p-4 px-6 lg:px-8 py-4 bg-cyan-950 rounded-l-md text-lg lg:text-xl mb-4 lg:mb-0'/>
             <button className='bg-orange-700 p-2 lg:p-4 px-6 lg:px-8 py-4 rounded-r-md text-lg lg:text-xl font-semibold focus:none'>Get Started</button>
           </div>
-          <div className='flex items-center mt-6 lg:mt-10'>
-            <img src={img2} alt="People Icon" className='w-6 lg:w-auto mr-2 lg:mr-4'/>
+          <div className='md:flex flex-rows items-center mt-6 lg:mt-10'>
+            <img src={img2} alt="People Icon"/>
             <p className='text-xs lg:text-sm'>1,600 people requested access a visit in last 24 hours</p>
           </div>
         </div>
-        <div className='lg:w-1/2 lg:ml-10'>
+        <div className=''>
           <img src={img1} alt="Hero Image" className='w-full h-auto'/>
         </div>
       </div>
